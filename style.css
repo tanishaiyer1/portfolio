@@ -25,7 +25,7 @@ nav a {
 
 nav a.current {
   border-bottom: 0.4em solid oklch(80% 3% 200);
-  padding-bottom: 0.1 em;
+  padding-bottom: 0.1em;
 }
 
 nav a:hover {
@@ -65,7 +65,7 @@ form button {
   display: grid;
   grid-template-rows: subgrid;
   grid-row: span 3;
-  gap: 1em
+  gap: 1em;
 }
 
 .projects h2 {
@@ -79,6 +79,39 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 400%;
+  margin-bottom: 0.3em
+}
+
+.my-horizontal-line {
+  border: none;
+  height: 2px; 
+  background-color: oklch(80% 3% 200); 
+}
+
+.tagline {
+  font-size: 1.1em;
+  margin-bottom: 1.2em;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.resume-card {
+  background: #fafafa;
+  padding: 1.4em 1.1em;
+  margin-bottom: 1em;
+  box-shadow: 0 2px 8px rgba(60,60,60,0.08);
+  border: 1px solid #e7e7e7;
 }
 
 
+.card-header {
+  background-color: var(--color-accent); 
+  padding: 0.5em 1em;
+  margin: -1.5em -1.5em 1em -1.5em; 
+}
+
+.card-header h2 {
+  color: white;
+  margin: 0;
+  font-size: 1.5em;
+}

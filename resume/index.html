@@ -6,7 +6,7 @@
     <title>Resume</title>
     <link rel="stylesheet" href="../style.css">
 </head>
-<body>
+<body class="resume-page">
     <nav>
         <a href="../index.html">Home</a>
         <a href="../projects/index.html">Projects</a>
@@ -14,67 +14,87 @@
         <a href="../resume/index.html" class="current">Resume</a>
         <a href="https://github.com/tanishaiyer1" target="_blank">Profile</a>
     </nav>
-    <h1>Resume</h1>
 
-    <section>
-        <h2>About</h2>
-        <p>I am an aspiring strategy consultant with a strong foundation in mathematics, economics, and data science. Seeking to solve complex business problems through rigorous analysis, structured thinking, and strategic insight. Passionate about competitive intelligence, market research, and delivering impactful client solutions.</p>
-    </section>
+    <header class="resume-header">
+        <h1>Resume</h1>
+        <p class="tagline">Mathematics & Economics · Data Science · Aspiring Strategy Consultant</p>
+    </header>
 
-    <section>
-        <h2>Education</h2>
-        <header>
-        <h3>University of California, San Diego</h3>
-        <p>B.S. in Mathematics and Economics, Minor in Data Science. Expected graduation: June 2026</p>
-        </header>
-    </section>
+    <main class="resume-container">
 
-    <section>
-        <h2>Experience</h2>
-        <header>
-            <h3>VP Public Relations</h3>
-            <p>Cornerstone Community Consultants</p>
-            <time datetime="2025-07">Jul 2025</time> – Present
-        </header>
-        <ul>
-            <li>Lead outreach strategy to acquire 5–7 pro bono clients per year.</li>
-            <li>Coordinate discovery calls, manage client onboarding, and ensure successful handoff to consulting teams.</li>
-            <li>Plan and execute professional events for 40+ members, including guest speaker engagement and logistics.</li>
-        </ul>
+        <section class="education resume-card">
+            <div class="card-header">
+            <h2>Education</h2>
+            </div>
+            <article>
+                <h3>University of California, San Diego</h3>
+                <p>B.S. in Mathematics and Economics, Minor in Data Science. Expected graduation: June 2026</p>
 
-        <header>
-            <h3>Equity Research Analyst</h3>
-            <p>Sustainable Investment Group</p>
-            <time datetime="2023-10">Oct 2023</time> – Present
-        </header>
-        <ul>
-            <li>Researched ESG-focused companies and delivered investment recommendations using SWOT, CCA, and DCF models.</li>
-            <li>Analysed industry dynamics and business models to support stock pitches; won 1st place in a pitch competition.</li>
-            <li>Collaborated in a team setting to develop clear, structured theses for internal investment committee reviews</li>
-        </ul>
+            </article>
+        </section>
 
-        <header>
-            <h3>Consulting Project Manager</h3>
-            <p>Cornerstone Community Consultants</p>
-            <time datetime="2023-10">Oct 2023</time> – <time datetime="2025-07">Jul 2025</time>
-        </header>
-        <ul>
-            <li>Led two client-facing consulting projects for a jewellery business and a Burmese restaurant group.</li>
-            <li>Managed 4–5 person teams to deliver strategic recommendations on operations, marketing, and customer growth.</li>
-            <li>Conducted market research, analysed customer behaviour, and presented insights to clients in live meetings.</li>
-            <li>Mentored new consultants and supported onboarding through skills training and team shadowing.</li>
-        </ul>
+        <section class="experience resume-card">
+            <div class="card-header">
+            <h2>Experience</h2>
+            </div>
 
-        <header>
-            <h3>Institution Relations Intern</h3>
-            <p>FundKernel</p>
-            <time datetime="2024-07">Jul 2024</time> – <time datetime="2024-09">Sept 2024</time>
-        </header>
-        <ul>
-            <li>Conducted extensive data management, including researching potential clients and organising data in Excel.</li>
-            <li>Participated in client meetings and helped draft tailored investment notes aligned with platform strategy.</li>
-        </ul>
-    </section>
+            <header>
+                <h3>VP Public Relations</h3>
+                <p>Cornerstone Community Consultants</p>
+                <time datetime="2025-07">Jul 2025</time> – Present
+            </header>
+            <ul>
+                <li>Lead outreach strategy to acquire 5–7 pro bono clients per year.</li>
+                <li>Coordinate discovery calls, manage client onboarding, and ensure successful handoff to consulting teams.</li>
+                <li>Plan and execute professional events for 40+ members, including guest speaker engagement and logistics.</li>
+            </ul>
 
+            <header>
+                <h3>Equity Research Analyst</h3>
+                <p>Sustainable Investment Group</p>
+                <time datetime="2023-10">Oct 2023</time> – Present
+            </header>
+            <ul>
+                <li>Researched ESG-focused companies and delivered investment recommendations using SWOT, CCA, and DCF models.</li>
+                <li>Analysed industry dynamics and business models to support stock pitches; won 1st place in a pitch competition.</li>
+                <li>Collaborated in a team setting to develop clear, structured theses for internal investment committee reviews.</li>
+            </ul>
+
+            <header>
+                <h3>Consulting Project Manager</h3>
+                <p>Cornerstone Community Consultants</p>
+                <time datetime="2023-10">Oct 2023</time> – <time datetime="2025-07">Jul 2025</time>
+            </header>
+            <ul>
+                <li>Led two client-facing consulting projects for a jewellery business and a Burmese restaurant group.</li>
+                <li>Managed 4–5 person teams to deliver strategic recommendations on operations, marketing, and customer growth.</li>
+                <li>Conducted market research, analysed customer behaviour, and presented insights to clients in live meetings.</li>
+                <li>Mentored new consultants and supported onboarding through skills training and team shadowing.</li>
+            </ul>
+
+            <header>
+                <h3>Institution Relations Intern</h3>
+                <p>FundKernel</p>
+                <time datetime="2024-07">Jul 2024</time> – <time datetime="2024-09">Sept 2024</time>
+            </header>
+            <ul>
+                <li>Conducted extensive data management, including researching potential clients and organising data in Excel.</li>
+                <li>Participated in client meetings and helped draft tailored investment notes aligned with platform strategy.</li>
+            </ul>
+
+        </section>
+
+        <section class="skills resume-card">
+            <div class="card-header">
+            <h2>Skills</h2>
+            </div>
+            <ul>
+                <li>Python, pandas</li>
+                <li>Excel, financial modeling</li>
+                <li>Data visualization</li>
+                <li>Market research</li>
+            </ul>
+        </section>
+    </main>
 </body>
 </html>
