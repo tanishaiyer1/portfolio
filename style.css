@@ -101,12 +101,13 @@ h1 {
 }
 
 .resume-card {
-  background: #fafafa;
+  background: field;
   padding: 1.4em 1.1em;
   margin-bottom: 1em;
   box-shadow: 0 2px 8px rgba(60,60,60,0.08);
-  border: 1px solid #e7e7e7;
+  border: 1px solid var(--border-color);
 }
+
 
 
 .card-header {
@@ -120,3 +121,21 @@ h1 {
   margin: 0;
   font-size: 1.5em;
 }
+
+body {
+  position: relative;
+}
+
+.color-scheme {
+  position: absolute;
+  top: 1rem;        /* TOP not bottom */
+  right: 1rem;
+  font-size: 0.80em;
+  font-family: inherit;
+  background: none;
+  z-index: 1000;
+}
+.color-scheme select, .color-scheme label {
+  font-family: inherit;
+}
+
