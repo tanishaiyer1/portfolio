@@ -1,7 +1,9 @@
 html {
+  color-scheme: light dark;
   --color-accent: oklch(58.38% 0.1877 322.87);
   accent-color: var(--color-accent);
 }
+
 
 body {
   font: 100%/1.5 system-ui;
@@ -13,8 +15,10 @@ body {
 nav {
   display: flex;
   margin-bottom: auto;
-  border-bottom: 1px solid oklch(80% 3% 200);
+  --border-color: oklch(50% 10% 200 / 40%);
+  border-bottom: 1px solid var(--border-color);
 }
+
 nav a {
   flex: 1;
   text-decoration: none;
@@ -30,8 +34,9 @@ nav a.current {
 
 nav a:hover {
   border-bottom: 0.4em solid var(--color-accent);
-  background-color: oklch(from var(--color-accent) 95% 5% h);
+  background-color: color-mix(in oklch, var(--color-accent), canvas 85%);
 }
+
 
 input, textarea, button {
   font: inherit;
@@ -84,8 +89,8 @@ h1 {
 
 .my-horizontal-line {
   border: none;
-  height: 2px; 
-  background-color: oklch(80% 3% 200); 
+  height: 2px;
+  background-color: var(--border-color);
 }
 
 .tagline {
