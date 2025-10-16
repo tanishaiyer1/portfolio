@@ -124,6 +124,7 @@ h1 {
 
 body {
   position: relative;
+  padding-top: 3.3em;
 }
 
 .color-scheme {
@@ -133,8 +134,8 @@ body {
   font-size: 0.80em;
   font-family: inherit;
   background: none;
-  /* z-index: 1000; */
 }
+
 .color-scheme select, .color-scheme label {
   font-family: inherit;
 }
