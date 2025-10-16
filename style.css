@@ -128,7 +128,7 @@ body {
 
 .color-scheme {
   position: absolute;
-  top: 1rem;        /* TOP not bottom */
+  top: 1rem; 
   right: 1rem;
   font-size: 0.80em;
   font-family: inherit;
