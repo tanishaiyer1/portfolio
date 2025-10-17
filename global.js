@@ -4,6 +4,7 @@ function $$(selector, context = document) {
   return Array.from(context.querySelectorAll(selector));
 }
 
+
 const BASE_PATH = (location.hostname === "localhost" || location.hostname === "127.0.0.1")
   ? "/"                     
   : "/portfolio/";
@@ -55,18 +56,5 @@ document.body.insertAdjacentHTML(
   `
 );
 
-let colorSchemeSelect = document.querySelector('.color-scheme select');
+const select = document.querySelector('.color-scheme select');
 
-function setColorScheme(scheme) {
-  document.documentElement.style.setProperty('color-scheme', scheme);
-  colorSchemeSelect.value = scheme;
-}
-
-colorSchemeSelect.addEventListener('input', function (event) {
-  setColorScheme(event.target.value);
-  localStorage.colorScheme = event.target.value;
-});
-
-if ('colorScheme' in localStorage) {
-  setColorScheme(localStorage.colorScheme);
-}
