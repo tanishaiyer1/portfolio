@@ -4,13 +4,6 @@ function $$(selector, context = document) {
   return Array.from(context.querySelectorAll(selector));
 }
 
-// let navLinks = $$("nav a");
-// let currentLink = navLinks.find(
-//   (a) => a.host === location.host && a.pathname === location.pathname,
-// );
-// currentLink?.classList.add('current');
-
-
 const BASE_PATH = (location.hostname === "localhost" || location.hostname === "127.0.0.1")
   ? "/"                     
   : "/portfolio/";
@@ -64,6 +57,16 @@ document.body.insertAdjacentHTML(
 
 let colorSchemeSelect = document.querySelector('.color-scheme select');
 
-function applyColorScheme(scheme) {
-  document.documentElement.setAttribute('data-color-scheme', scheme);
+function setColorScheme(scheme) {
+  document.documentElement.style.setProperty('color-scheme', scheme);
+  colorSchemeSelect.value = scheme;
+}
+
+colorSchemeSelect.addEventListener('input', function (event) {
+  setColorScheme(event.target.value);
+  localStorage.colorScheme = event.target.value;
+});
+
+if ('colorScheme' in localStorage) {
+  setColorScheme(localStorage.colorScheme);
 }
