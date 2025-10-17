@@ -4,6 +4,12 @@ function $$(selector, context = document) {
   return Array.from(context.querySelectorAll(selector));
 }
 
+// let navLinks = $$("nav a");
+// let currentLink = navLinks.find(
+//   (a) => a.host === location.host && a.pathname === location.pathname,
+// );
+// currentLink?.classList.add('current');
+
 
 const BASE_PATH = (location.hostname === "localhost" || location.hostname === "127.0.0.1")
   ? "/"                     
@@ -56,5 +62,8 @@ document.body.insertAdjacentHTML(
   `
 );
 
-const select = document.querySelector('.color-scheme select');
+let colorSchemeSelect = document.querySelector('.color-scheme select');
 
+function applyColorScheme(scheme) {
+  document.documentElement.setAttribute('data-color-scheme', scheme);
+}
