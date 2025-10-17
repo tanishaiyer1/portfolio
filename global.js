@@ -62,8 +62,19 @@ document.body.insertAdjacentHTML(
   `
 );
 
-let colorSchemeSelect = document.querySelector('.color-scheme select');
+const select = document.querySelector('.color-scheme select');
 
-function applyColorScheme(scheme) {
-  document.documentElement.setAttribute('data-color-scheme', scheme);
+function setColorScheme(colorScheme) {
+  document.documentElement.style.setProperty('color-scheme', colorScheme);
+  select.value = colorScheme;
+}
+
+select.addEventListener('input', function (event) {
+  setColorScheme(event.target.value);
+  localStorage.colorScheme = event.target.value;
+});
+
+
+if ('colorScheme' in localStorage) {
+  setColorScheme(localStorage.colorScheme);
 }
