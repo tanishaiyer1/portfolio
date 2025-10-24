@@ -1,62 +1,74 @@
 [
-    {
-        "title": "Lorem ipsum dolor sit.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti nostrum, culpa, beatae quibusdam veniam veritatis ducimus et quas dolore blanditiis, velit vitae hic quis tempore amet dicta temporibus voluptas alias!"
-    },
-    {
-        "title": "Ex unde delectus perspiciatis!",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Non porro eos doloribus unde amet iusto optio repellendus hic doloremque facilis. Corporis ipsa magni deserunt itaque nam? Tempora voluptatum hic numquam obcaecati? Cumque, saepe adipisci officia doloribus delectus neque."
-    },
-    {
-        "title": "Reprehenderit quasi asperiores iusto!",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Rerum atque adipisci expedita ad cum quasi magnam animi, non quia dolore at aperiam distinctio perspiciatis velit, veniam, qui fugiat reprehenderit maxime commodi quod temporibus eos facilis iste repellat. Accusamus?"
-    },
-    {
-        "title": "Explicabo nostrum inventore quis.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Obcaecati laborum veniam nam impedit. Ea quam ipsa qui, deleniti quo sequi officia numquam similique totam quibusdam, doloribus a eos dolorum delectus, praesentium voluptas hic corporis ducimus sapiente dolorem id!"
-    },
-    {
-        "title": "Earum aliquam modi officia?",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Optio distinctio autem illum, voluptate voluptas sapiente corrupti ipsa minima provident nulla a natus asperiores, aut dolores cum numquam quos neque doloremque architecto magni quidem accusantium obcaecati atque nihil! Nobis!"
-    },
-    {
-        "title": "Animi, aspernatur! Dignissimos, eos!",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Aspernatur atque deserunt quae beatae temporibus ab rem, aperiam soluta, nihil cupiditate voluptates, accusamus autem distinctio perferendis hic suscipit maiores eum ea facere! Nemo minus autem itaque, omnis assumenda molestiae."
-    },
-    {
-        "title": "Totam, fugiat molestiae. Itaque?",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Culpa odit commodi similique aspernatur minima officiis optio corrupti repellendus sequi, nobis ratione quam sint sapiente, delectus tempore necessitatibus obcaecati officia. In odio quam quia sint rerum officia architecto qui."
-    },
-    {
-        "title": "Ad iste nulla nihil.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Illum totam exercitationem alias fugiat, commodi cum labore quaerat blanditiis et dolor qui iure repudiandae aspernatur quisquam, consequuntur laboriosam at dignissimos temporibus id, dolore corrupti? Blanditiis fuga consectetur cum fugiat."
-    },
-    {
-        "title": "At error earum enim?",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Facilis delectus voluptatum libero impedit magnam saepe exercitationem expedita nihil iure nisi, doloribus nobis. Temporibus nemo esse aspernatur ducimus, vitae labore quasi amet consequatur molestias eligendi laboriosam, explicabo, sint fugiat?"
-    },
-    {
-        "title": "Consequatur alias ipsa vero.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Non commodi voluptatem accusamus illum corrupti nesciunt facilis eveniet adipisci asperiores recusandae nam, molestiae, quidem voluptatum vel corporis odit ea? Officiis sapiente dicta eligendi esse itaque repellendus ad quia vitae."
-    },
-    {
-        "title": "Obcaecati repudiandae autem amet!",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Soluta sapiente quasi obcaecati quibusdam delectus porro fuga eveniet illo omnis laudantium. Ex minima porro voluptate! Quos eum voluptatibus sunt, architecto labore eveniet accusamus, aliquid minima ratione iste vel facere."
-    },
-    {
-        "title": "Adipisci ut non earum.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Quasi illo quis vel fugiat ab magni praesentium esse molestias, dolorem, laborum consequuntur maxime, aut corporis reiciendis? Minima voluptatem totam sequi aut incidunt expedita corrupti numquam atque culpa, velit autem."
-    }
+  {
+    "title": "Lab 1: Introduction to the Web platform",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Built my first personal webpage using basic HTML structure and semantic elements as part of DSC106."
+  },
+  {
+    "title": "Lab 2: Styling with CSS",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Enhanced webpage layout and aesthetics using CSS Grid, Flexbox, and responsive design principles."
+  },
+  {
+    "title": "Lab 3: Introduction to JS",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Implemented interactive features including dynamic navigation and a theme switcher with localStorage memory."
+  },
+  {
+    "title": "Restaurant Consulting Project",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Led a consulting project for a Burmese restaurant group, conducting market research, consumer analysis, and strategic recommendations to elevate brand positioning."
+  },
+  {
+    "title": "Formula 1 Sector Analysis (2018–2021)",
+    "year": "2024",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Group research project analyzing Formula 1 qualifying data using the FastF1 API. Conducted data cleaning, exploratory analysis, and regression modeling to examine how sector complexity impacts qualifying performance. Tools: Python (pandas, matplotlib), FastF1 API."
+  },
+  {
+    "title": "Recipe Ratings Analysis (DSC80)",
+    "year": "2024",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Explored how nutritional features influence recipe ratings by merging and analyzing food.com datasets. Built regression models to predict ratings, conducted hypothesis tests, and performed fairness assessments."
+  },
+  {
+    "title": "Jewelry Business Consulting Project",
+    "year": "2024",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Managed a consulting engagement for a local jewelry brand, delivering marketing, branding, and operational insights to improve customer engagement."
+  },
+  {
+    "title": "Crocs Stock Pitch Project",
+    "year": "2024",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Collaborated in a group stock pitch evaluating Crocs Inc. from an ESG perspective. As part of the Equity Research team, I conducted financial valuations and numerical analysis using DCF and CCA models to support investment recommendations."
+  },
+  {
+   "title": "Keysight Technologies Stock Pitch Project",
+    "year": "2023",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Worked in the Sustainability team for an ESG stock pitch on Keysight Technologies. Focused on qualitative analysis through evaluating the company’s ESG commitments, SWOT analysis, and value chain assessment to inform final recommendations."
+  }, 
+  {
+    "title": "Research Paper: Impact of Settler Colonisation on the Canadian Economy",
+    "year": "2023",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Investigated the economic consequences of European settler colonisation for indigenous populations and long-term economic growth in Canada. Explored historical inequalities, marginalisation, and policy solutions to promote sustainable and equitable development."
+  },
+  {
+    "title": "Extended Essay: Tobacco Tax Policy in Singapore",
+    "year": "2022",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Analyzed the 2018 tobacco tax hike in Singapore to assess its effectiveness in correcting a negative consumption externality. Used elasticity, externality, and welfare theory to evaluate policy outcomes."
+  },
+  {
+    "title": "Business IA: Revolt Gym Expansion Feasibility Study",
+    "year": "2022",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Developed a business proposal for Revolt Gym evaluating the profitability and risks of opening a second branch. Applied SWOT, Ansoff Matrix, and investment appraisal methods including payback and ARR."
+  }
 ]
