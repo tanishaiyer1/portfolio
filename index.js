@@ -5,8 +5,7 @@ const latestProjects = projects.slice(0, 3);
 const projectsContainer = document.querySelector('.projects');
 renderProjects(latestProjects, projectsContainer, 'h2');
 
-// Fetch GitHub profile data
-const githubData = await fetchGitHubData('tanishaiyer1'); // <-- Replace with your GitHub username!
+const githubData = await fetchGitHubData('tanishaiyer1');
 const profileStats = document.querySelector('#profile-stats');
 
 if (profileStats) {
