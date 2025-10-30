@@ -73,6 +73,17 @@ form button {
   gap: 1em;
 }
 
+.project-text {
+  font-family: Baskerville, serif;
+}
+
+.project-year {
+  color: gray;
+  font-variant-numeric: oldstyle-nums;
+  margin-top: 0.25rem;
+  font-size: 0.9rem;
+}
+
 .projects h2 {
   margin: 0;
 }
@@ -107,7 +118,6 @@ h1 {
   box-shadow: 0 2px 8px rgba(60,60,60,0.08);
   border: 1px solid var(--border-color);
 }
-
 
 
 .card-header {
