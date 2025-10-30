@@ -85,7 +85,6 @@ form button {
   margin-top: 0.25rem;
 }
 
-
 .projects h2 {
   margin: 0;
 }
@@ -152,7 +151,6 @@ body {
   font-family: inherit;
 }
 
-
 #profile-stats dl {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -165,4 +163,11 @@ body {
 #profile-stats dd {
   grid-row: 2;
   margin: 0;
+}
+
+#projects-pie-plot {
+  max-width: 20em;
+  margin-block: 2em;
+
+  overflow: visible;
 }
