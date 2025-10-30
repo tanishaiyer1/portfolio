@@ -24,5 +24,4 @@ arcs.forEach((arc, idx) => {
     .attr('fill', colors[idx]);
 });
 
-// d3.select('svg').append('path').attr('d', arc).attr('fill', 'red');
 
