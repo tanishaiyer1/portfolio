@@ -166,8 +166,40 @@ body {
 }
 
 #projects-pie-plot {
-  max-width: 20em;
-  margin-block: 2em;
-
+  max-width: 22em;
+  min-width: 13em;
   overflow: visible;
+  flex-shrink: 0;
+}
+
+.legend {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+  gap: 1em;
+  border: 1px solid lightgray;
+  padding: 1em;
+  flex: 1;
+  align-self: center;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.swatch {
+  width: 1em;
+  aspect-ratio: 1 / 1;
+  background-color: var(--color);
+  border-radius: 0.25em;
+  display: inline-block;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  gap: 2.5em;
+  flex-wrap: wrap;
+  margin-block: 2em;
 }
