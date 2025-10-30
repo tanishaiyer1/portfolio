@@ -10,8 +10,8 @@ let svg = d3.select("#projects-pie-plot");
 
 let arcGenerator = d3.arc().innerRadius(0).outerRadius(50);
 
-let data = [1, 2];
-let colors = ['gold', 'purple'];
+let data = [1, 2, 3, 4, 5, 5];
+let colors = d3.scaleOrdinal(d3.schemeTableau10);
 
 let sliceGenerator = d3.pie();
 let arcData = sliceGenerator(data);
@@ -23,5 +23,3 @@ arcs.forEach((arc, idx) => {
     .attr('d', arc)
     .attr('fill', colors[idx]);
 });
-
-
