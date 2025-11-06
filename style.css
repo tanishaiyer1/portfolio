@@ -288,8 +288,13 @@ circle {
   transform-box: fill-box;
 }
 
+
 circle:hover {
   transform: scale(1.5);
+}
+
+circle.selected {
+  fill: #ff6b6b;
 }
 
 dl.tooltip {
@@ -328,3 +333,32 @@ dl.info[hidden]:not(:hover, :focus-within) {
   visibility: hidden;
 }
 
+dl#language-breakdown {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.3em;
+  align-items: center;
+  padding: 0.5em 0 0.2em 0;
+  margin: 1em 0 0.5em 0;
+}
+dl#language-breakdown dt {
+  color: #537baf;
+  font-weight: 600;
+  font-size: 1.08em;
+  margin: 0;
+}
+dl#language-breakdown dd {
+  color: #313846;
+  margin: 0 0.4em 0 0;
+  font-size: 1.07em;
+  font-weight: 500;
+}
+dl#language-breakdown dt::after {
+  content: ": ";
+  color: #bcc3cd;
+}
+dl#language-breakdown dd:not(:last-child)::after {
+  content: ";";
+  color: #c3ceda;
+  margin-left: 0.5em;
+}
