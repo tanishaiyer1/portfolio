@@ -223,3 +223,46 @@ path {
   }
 }
 
+.stats dl {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1em;
+}
+.stats dt {
+  grid-row: 1;
+  color: #81848f;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 300;
+  margin-bottom: 0.5em;
+}
+.stats dd {
+  grid-row: 2;
+  font-size: 2.8em;
+  margin: 0;
+  font-family: inherit;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 1.1;
+}
+/* 
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+  font-family: sans-serif;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+.stats dt {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.stats dd {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+} */
