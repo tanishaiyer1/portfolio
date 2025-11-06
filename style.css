@@ -223,30 +223,6 @@ path {
   }
 }
 
-/* .stats dl {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 1em;
-}
-.stats dt {
-  grid-row: 1;
-  color: #81848f;
-  font-size: 1.2em;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: 300;
-  margin-bottom: 0.5em;
-}
-.stats dd {
-  grid-row: 2;
-  font-size: 2.8em;
-  margin: 0;
-  font-family: inherit;
-  font-weight: 300;
-  letter-spacing: 1px;
-  line-height: 1.1;
-} */
-
 .stats-title {
   font-size: 2em;
   font-weight: bold;
@@ -294,7 +270,7 @@ circle:hover {
 }
 
 circle.selected {
-  fill: #ff6b6b;
+  fill: oklch(65.211% 0.21731 0.939);
 }
 
 dl.tooltip {
