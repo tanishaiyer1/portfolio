@@ -18,6 +18,13 @@
     "description": "Implemented interactive features including dynamic navigation and a theme switcher with localStorage memory."
   },
   {
+  "title": "BikeWatching Lab",
+  "year": "2025",
+  "image": "Images/bikewatching_project.jpg",
+  "description": "Designed and launched an interactive dashboard for real-time bike data exploration using D3.js. Explored cycling trends, route patterns, and used visual analytics for actionable insights.",
+  "link": "https://tanishaiyer1.github.io/bikewatching/"
+  },
+  {
     "title": "Restaurant Consulting Project",
     "year": "2025",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
