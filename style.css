@@ -392,7 +392,6 @@ circle {
 
 #scatter-story {
   position: relative;
-  /* Add padding-bottom to steps if the commit text is too short (Step 3.2) */
 }
 
 #scatter-plot {
