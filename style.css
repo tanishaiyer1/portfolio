@@ -338,3 +338,79 @@ dl#language-breakdown dd:not(:last-child)::after {
   color: #c3ceda;
   margin-left: 0.5em;
 }
+
+circle {
+  transition: r 0.6s;
+}
+@starting-style {
+  circle {
+    r: 0;
+  }
+}
+
+#files {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+#files > div {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: subgrid;
+}
+#files dt {
+  grid-column: 1;
+}
+#files dd {
+  grid-column: 2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  align-content: start;
+  gap: 0.15em;
+  padding-top: 0.6em;
+  margin-left: 0;
+}
+.loc {
+  display: flex;
+  width: 0.5em;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: steelblue; /* Will be overridden dynamically unless color scale fails */
+}
+
+/* Step 3.1: Scrollytelling layout */
+#scrolly-1 {
+  position: relative;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 50vh; /* Add some space at the bottom to allow the last step to scroll */
+}
+
+#scrolly-1 > * {
+  flex: 1; /* Makes both columns take equal width */
+}
+
+#scatter-story {
+  position: relative;
+  /* Add padding-bottom to steps if the commit text is too short (Step 3.2) */
+}
+
+#scatter-plot {
+  position: sticky;
+  top: 0;
+  left: 0;
+  bottom: auto;
+  height: 50vh; /* Ensures sticky has a height boundary */
+}
+
+.step {
+  padding: 100px 0 300px 0; /* Example padding to ensure each step is tall enough */
+  margin-bottom: 2rem;
+  opacity: 0.5;
+  transition: opacity 0.5s;
+}
+
+.step.is-active {
+  opacity: 1.0;
+  background-color: #f7f7f7; /* Light background for contrast */
+}

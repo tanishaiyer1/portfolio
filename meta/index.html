@@ -8,34 +8,48 @@
 </head>
 <body>
     <h1>Meta</h1>
-    <p>This page visualizes stats about our codebase.</p>   
+    <p>This page visualizes stats about our codebase.</p>    
     
     <h2 class="stats-title">Summary</h2>
     <div id="stats"></div>
+    
+    <div class="time-filter">
+        <label for="commit-progress">
+            Show commits until:
+            <input id="commit-progress" type="range" min="0" max="100" value="100" step="1" />
+        </label>
+        <time id="commit-time" aria-live="polite"></time>
+    </div>
 
     <h2>Commits by time of day</h2>
-    <div id="chart"></div>
-    <p id="selection-count">No commits selected</p>
-    <dl id="language-breakdown" class="stats"></dl>
-
-
-    <!-- Tooltip -->
+    
+    <div id="scrolly-1">
+        <div id="scatter-story">
+            </div>
+        
+        <div id="scatter-plot">
+            <div id="chart"></div>
+            <p id="selection-count">No commits selected</p>
+            <dl id="language-breakdown" class="stats"></dl>
+        </div>
+    </div>
     <dl id="commit-tooltip" class="info tooltip" hidden>
-    <dt>Commit</dt>
-    <dd><a href="" id="commit-link" target="_blank"></a></dd>
-    <dt>Date</dt>
-    <dd id="commit-date"></dd>
-    <dt>Time</dt>
-    <dd id="commit-time"></dd>
-    <dt>Author</dt>
-    <dd id="commit-author"></dd>
-    <dt>Lines edited</dt>
-    <dd id="commit-lines"></dd>
+        <dt>Commit</dt>
+        <dd><a href="" id="commit-link" target="_blank"></a></dd>
+        <dt>Date</dt>
+        <dd id="commit-date"></dd>
+        <dt>Time</dt>
+        <dd id="commit-time"></dd>
+        <dt>Author</dt>
+        <dd id="commit-author"></dd>
+        <dt>Lines edited</dt>
+        <dd id="commit-lines"></dd>
     </dl>
 
 
     <script type="module" src="main.js"></script>
     <script src="../global.js" type="module"></script>
+    
+    <dl id="files"></dl>
 </body>
 </html>
-
